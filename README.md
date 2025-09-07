@@ -1,1 +1,60 @@
-# Fuljadi
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meri Fuljadi ❤️</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #ffdde1;
+      font-family: Arial, sans-serif;
+      overflow-x: hidden;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 3em;
+      color: #ff0040;
+      margin-top: 20vh;
+      position: relative;
+      z-index: 2;
+    }
+
+    .love-text {
+      margin-top: 30px;
+      font-size: 1.2em;
+      color: #ff3366;
+      max-width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      line-height: 1.5em;
+    }
+
+    /* Falling hearts */
+    .heart {
+      position: fixed;
+      top: -10px;
+      color: red;
+      font-size: 24px;
+      animation: fall linear infinite;
+      z-index: 1;
+    }
+
+    @keyframes fall {
+      to {
+        transform: translateY(110vh);
+        opacity: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Meri Fuljadi ❤️</h1>
+  <div class="love-text" id="loveText"></div>
+
+  <script>
+    // Generate 5000 "I love you" messages
+    const loveText = document.getElementById("loveText");
+    let
