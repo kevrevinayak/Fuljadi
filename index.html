@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Meri Fuljadi ❤️</title>
+  <style>
+    html,body{height:100%;margin:0;background:#0b0b12;font-family:Arial, sans-serif;overflow:hidden}
+    .center {
+      position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);
+      text-align:center;z-index:100;color:#fff;
+    }
+    .center h1{font-size:36px;margin:0;padding:6px 12px;border-radius:12px;background:rgba(255,0,90,0.08);text-shadow:0 6px 24px rgba(255,0,90,0.18)}
+    .message {
+      position:fixed;inset:0;padding:18px 12px;color:#ffb6c1;font-size:14px;line-height:1.6;
+      overflow:auto;z-index:10;pointer-events:none;opacity:0.95;
+    }
+    .heart{position:fixed;top:-60px;font-size:22px;z-index:200;animation:fall linear;will-change:transform,opacity}
+    @keyframes fall{to{transform:translateY(120vh) rotate(360deg);opacity:0}}
+  </style>
+</head>
+<body>
+  <div class="center"><h1>meri fuljadi ❤️</h1></div>
+  <div class="message" id="msg"></div>
+
+  <script>
+    // the repeated message 5000 times
+    const base = "I love you the most my love 💓 ";
+    document.getElementById('msg').textContent = base.repeat
