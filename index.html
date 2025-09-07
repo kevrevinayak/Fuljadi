@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Meri Fuljadi ❤️</title>
+  <title>❤️✨Meri Fuljadi ✨❤️</title>
   <style>
     body {
       margin: 0;
@@ -66,7 +66,7 @@
 </head>
 <body>
   <div class="overlay"></div>
-  <h1>Meri Fuljadi ❤️</h1>
+  <h1>❤️✨Meri Fuljadi ✨❤️</h1>
   <div class="love-text" id="loveText"></div>
 
   <script>
@@ -74,7 +74,7 @@
     const loveText = document.getElementById("loveText");
     let text = "";
     for (let i = 0; i < 5000; i++) {
-      text += "I love you the most my love 💓 ";
+      text += "I love you ❤️ ";
     }
     loveText.innerText = text;
 
@@ -82,7 +82,7 @@
     function createHeart() {
       const heart = document.createElement("div");
       heart.className = "heart";
-      heart.innerText = "💖";
+      heart.innerText = "❤️";
       heart.style.left = Math.random() * 100 + "vw";
       heart.style.animationDuration = (2 + Math.random() * 3) + "s";
       document.body.appendChild(heart);
