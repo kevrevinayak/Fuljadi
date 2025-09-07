@@ -8,7 +8,7 @@
     body {
       margin: 0;
       padding: 0;
-      background: url('bg.jpg') no-repeat center center fixed;
+      background: url('bg1.jpg') no-repeat center center fixed;
       background-size: cover;
       font-family: Arial, sans-serif;
       overflow-x: hidden;
